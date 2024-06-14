@@ -113,6 +113,17 @@ h3 {
     text-align: right;
 }
 
+.profile__portrait {
+    max-width: 300px;
+    float: left;
+}
+
+.profileText {
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
 .section-header {
     text-align: center;
 }
