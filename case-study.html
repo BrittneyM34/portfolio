@@ -13,7 +13,7 @@
 
 <body class="case-body">
     <header class="page-header">
-        <a href="index.html"><img src="img/brittneymcmahonlogo.png" alt="Logo" class="page-header__item"></a>
+        <a href="index.html"><img src="img/brittneykounslogo.png" alt="Logo" class="page-header__item"></a>
         <nav class="main-navigation page-header__item">
             <ul role="menubar" class="navigation-list">
                 <li role="presentation">
@@ -38,7 +38,7 @@
     <hr />
 
     <div class="case-study">
-        <h1>Case Study for myFlix full-stack project</h1>
+        <h1 class="title">Case Study for myFlix full-stack project</h1>
         <div class="intro">
             <div class="intro-content">
                 <h2>Overview</h2>
@@ -60,9 +60,10 @@
                     scratch to include in my professional portfolio.
                 </p>
             </div>
-            <div class="intro-image">
-                <img src="img/intro.png" alt="screenshot of movie list">
+            <div class="intro-img">
+                <img src="img/intro.png" alt="screenshot of movie list" height="450" width="700">
             </div>
+            <br>
         </div>
         <br>
         <h2 class="approach-title">Approach</h2>
@@ -70,7 +71,10 @@
             <div class="server-content">
                 <h3>Server-Side</h3>
                 <p>
-
+                    I created a RESTful API using Node.js and Express, that interacts with a non-relational database on
+                    MongoDB. The API can be accessed using commonly used HTTP methods like GET or POST. CRUD methods are
+                    used to retrieve and store data in the database. The API provides information about movies using a
+                    JSON format.
                 </p>
                 <br>
                 <p>
@@ -81,7 +85,8 @@
                 </p>
                 <br>
                 <p>
-
+                    I used Postman to test the API. I included user authentication and authorization code in the form of
+                    basic HTTP authentication and JWT authentication.
                 </p>
             </div>
             <div class="server-img">
@@ -91,31 +96,60 @@
         </div>
         <div class="client-side">
             <div class="client-content">
-
+                <h2>Client-Side</h2>
+                <p>
+                    After completing the API, I started to build the interface that users would need when making
+                    requests to, and responses from the server-side. It is a responsive, single page application that
+                    was developed with React and React-Redux. It provides several different interface views including a
+                    main view, single movie view, login view, registration view, and a profile view.
+                </p>
             </div>
             <div class="client-img">
-                <!-- <img> -->
+                <img src="img/favorite-movies.png" alt="favorite movies">
+                <img src="img/single-movie.png" alt="single movie view">
+                <img src="img/login.png" alt="login view">
             </div>
         </div>
         <div class="challenges">
             <h2>Challenges</h2>
             <p>
-
+                This project was my favorite but also most frustrating project. I enjoyed the accomplished feeling of
+                creating an application from scratch, but if was a very big learning curve. I initially struggled a lot
+                with the server-side of the application, but once I was able to wrap my head around what exactly the
+                purpose was, I was able to more easily figure out what I was doing. The client-side was more rewarding
+                for me to visual see the application coming to life.
             </p>
         </div>
         <div class="duration">
             <h2>Duration</h2>
             <p>
-
+                The duration of server-side took me longer as expected because I had to keep reaching out to my tutor
+                for help as I kept getting stuck on certain parts. It took me some extra time to grasp the concepts but
+                after some time I was able to figure it all out.
             </p>
         </div>
         <div class="credits">
             <h2>Credits</h2>
             <ul>
-
+                <li>Role: Lead Developer</li>
+                <li>Tutor: Jesus Diaz</li>
+                <li>Mentor: Sebastin Kolman</li>
             </ul>
         </div>
     </div>
+
+    <br>
+    <hr />
+    <!-- Footer with links to social media profiles-->
+    <footer class="page-footer">
+        <div class="social-media">
+            <p>Find me on</p>
+            <a src="https://x.com/brittneym1432"><img src="img/twitter_icon.svg" alt="Twitter"></a>
+            <a src="https://github.com/BrittneyM34"><img src="img/github_icon.svg" alt="Github"></a>
+            <a src="https://www.linkedin.com/in/brittney-mcmahon-a90b502a1/"><img src="img/linkedin_icon.svg"
+                    alt="LinkedIn"></a>
+        </div>
+    </footer>
 </body>
 
 </html>
