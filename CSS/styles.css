@@ -131,9 +131,9 @@ li {
 }
 
 section {
-    padding-left: 75px;
-    padding-right: 75px;
-    padding-bottom: 75px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
     color:#292830;
 }
 .section-header h1 {
@@ -157,12 +157,11 @@ section {
     text-decoration: none;
 }
 
-
 .grid {
     height: auto;
     display: grid;
     grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 650px 650px;
+    grid-template-rows: 750px 800px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
 }
@@ -180,7 +179,7 @@ section {
 .grid_item_img {
     margin-left: 25px;
     height: 250px;
-    width: 500px;
+    width: 450px;
 }
 
 @supports (display: grid) {
