@@ -70,6 +70,10 @@ h3 {
     font-weight: var(--font-weight);
 }
 
+li {
+    font-size: 18px;
+}
+
 .page-header__item {
     width: 300px;
 }
@@ -327,9 +331,30 @@ td {
 
 /* Case Study */
 
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p{ 
+    font-size: 20px;
+}
+
+.credits li {
+    font-size: 20px;
+    list-style: none;
+}
+
 .case-study {
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 200px;
+    padding-right: 200px;
     text-align: left;
     color:#292830;
 }
@@ -339,6 +364,11 @@ td {
 }
 
 .intro {
+    display: flex;
+    justify-content: space-between;
+}
+
+.server-side {
     display: flex;
     justify-content: space-between;
 }
@@ -353,19 +383,32 @@ td {
     display: block;
     height: auto;
     width: 100%;
+    -webkit-box-shadow: 2px 2px 10px -3px rgba(52, 58, 64, 0.99);
+    box-shadow: 2px 2px 10px -3px rgba(52, 58, 64, 0.99);
 }
 
 .server-img img {
     display: block;
     height: auto;
     width: 100%;
-    float: left;
+    /* -webkit-box-shadow: 2px 2px 10px -3px rgba(52, 58, 64, 0.99);
+    box-shadow: 2px 2px 10px -3px rgba(52, 58, 64, 0.99); */
+    padding: 10px;
+    padding-right: 50px; 
 }
+
+.client-img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+  }
 
 .client-img img {
     display: block;
     height: auto;
     width: 100%;
+    -webkit-box-shadow: 2px 2px 10px -3px rgba(52, 58, 64, 0.99);
+    box-shadow: 2px 2px 10px -3px rgba(52, 58, 64, 0.99);
 }
 
 a:hover,
@@ -380,4 +423,8 @@ p a:visited {
 
 p a:active {
     color: black;
+}
+
+.server-content {
+    float: right;
 }
