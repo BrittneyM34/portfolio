@@ -82,6 +82,7 @@ h3 {
     max-width: 700px;
     margin: 0 auto;
     text-align: center;
+    color:#3a4042;
 }
 
 * {
@@ -126,7 +127,13 @@ h3 {
 }
 
 section {
-    padding: 75px;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-bottom: 75px;
+    color:#292830;
+}
+.section-header h1 {
+    padding-bottom: 50px;
 }
 
 .section-header {
@@ -324,14 +331,53 @@ td {
     padding-left: 150px;
     padding-right: 150px;
     text-align: left;
+    color:#292830;
 }
 
 .title {
     text-align: center;
 }
 
+.intro {
+    display: flex;
+    justify-content: space-between;
+}
+
 .intro-img, .server-img, .client-img {
     margin-top: 1.5em;
     margin-bottom: 1.5em;
     float: right;
+}
+
+.intro-img img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.server-img img {
+    display: block;
+    height: auto;
+    width: 100%;
+    float: left;
+}
+
+.client-img img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+a:hover,
+a:focus {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+p a:visited {
+    color: black;
+}
+
+p a:active {
+    color: black;
 }
