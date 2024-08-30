@@ -352,6 +352,11 @@ p{
     list-style: none;
 }
 
+.key-features li {
+    font-size: 20px;
+    list-style: none;
+}
+
 .case-study {
     padding-left: 200px;
     padding-right: 200px;
@@ -428,3 +433,11 @@ p a:active {
 .server-content {
     float: right;
 }
+
+.info-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px; 
+  }
+  
